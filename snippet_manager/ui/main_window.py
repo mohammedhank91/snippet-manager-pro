@@ -27,7 +27,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         
-        self.setWindowTitle(APP_NAME)
+        self.setWindowTitle(f"{APP_NAME} by mohammedhank91")
         self.resize(800, 600)
         self.setMinimumSize(600, 400)
         
@@ -1259,6 +1259,8 @@ class MainWindow(QMainWindow):
             <li>Rich text support (coming soon)</li>
             <li>Categories for organization (coming soon)</li>
         </ul>
+        <p>Developed by <a href="https://github.com/mohammedhank91">mohammedhank91</a></p>
+        <p><a href="https://github.com/mohammedhank91/snippet-manager-pro">GitHub Repository</a></p>
         """
         
         QMessageBox.about(self, f"About {APP_NAME}", about_text)
@@ -1457,6 +1459,10 @@ class MainWindow(QMainWindow):
         
         about_app_label = QLabel(f"{APP_NAME} - Version {VERSION}")
         about_layout.addWidget(about_app_label)
+        
+        github_label = QLabel(f'Developed by <a href="https://github.com/mohammedhank91">mohammedhank91</a>')
+        github_label.setOpenExternalLinks(True)
+        about_layout.addWidget(github_label)
         
         settings_layout.addWidget(about_group)
         
