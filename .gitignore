@@ -1,0 +1,65 @@
+# PyInstaller build directories
+build/
+dist/
+*.spec
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+*.dll
+
+# Python distribution / packaging
+.Python
+env/
+venv/
+ENV/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Snippet Manager data files (if they contain sensitive data)
+# Uncomment the lines below if needed
+# snippet_manager/data/*.json
+# *.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Other common files to exclude
+*.log
+*.backup
+*.bak
+*.tmp
+
+# Exclude personal configuration files that might contain API keys, etc.
+# config.ini
+# secrets.py 
+data.txt
+snippets.json
