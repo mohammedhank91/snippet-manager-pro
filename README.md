@@ -42,7 +42,8 @@ A powerful application for managing text snippets with advanced organization fea
 
 ## Screenshots
 
-(Add screenshots of your application here)
+![image](https://github.com/user-attachments/assets/c9bad36e-84b3-4d27-85e0-eda973d2031c)
+
 
 ## Requirements
 
